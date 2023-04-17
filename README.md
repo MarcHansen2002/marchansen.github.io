@@ -1,2 +1,3 @@
-Portfolio and Development Blog
-Live Site: marchansen.github.io
+**Marc Hansen's Development Portfolio**
+
+> [Live Site](https://marchansen2002.github.io/)
