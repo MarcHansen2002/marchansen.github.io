@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+}
+
+/* HEADER STYLING */
+h {
+	color: black;
+	font-size: 50px;
+	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+	font-weight: bold;
+	margin: 0;
+	
+}
+h1 {
+  color: black;
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+}
+
+/* TEXT CONTENT STYLING */
+p {
+  color: gray;
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+  font-size: 36;
+}
+p.about {
+	margin: 0;
+}
+
+/* LINK STYLING */
+a {
+	color: #727272;
+	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+}
+a.project {
+	color: black;
+	font-weight: bold;
+}
+a.project:hover {
+	text-decoration: underline;
+}
+
+/* PAGE COLUMN / ROW STYLING */
+.column1 {
+	float: left;
+	width: 15%;
+	
+	padding-left: 100px;
+}
+.row1 {
+	padding-top: 100px;
+}
+.column {
+	float: left;
+	
+	width: 900px;
+	white-space: normal;
+}
+.row {
+	padding-top: 30px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.row1:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.columnRight {
+	width: 20%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	background-color: black;
+	position: absolute;
+}
