@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/marchansen2002.github.io'
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://marchansen2002.github.io`,
