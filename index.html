@@ -10,10 +10,26 @@
 <!-- PROFILE ROW -->
 <div class = "row1">
 	<div class="column1">
+		<button onclick="toggleTheme()"><img src="images/LightModeButton.png" class="img_light" style="width:100px;left:0;"><img src="images/DarkModeButton.png" class="img_dark" style="width:100px;left:0;"></button>
+		<script>
+			function toggleTheme()
+			{
+				var theme = document.getElementsByTagName('link')[0];
+				
+				if (theme.getAttribute('href') == 'css/style.css')
+				{
+					theme.setAttribute('href', 'css/darkStyle.css');
+				}
+				else
+				{
+					theme.setAttribute('href', 'css/style.css');
+				}
+			}
+		</script>
 		<p><img src="images/icon.png" style="width:200px;height:200px"></p>
 	</div>
 	<div class="column">
-        <h>Marc Hansen</h>
+        <h><br>Marc Hansen</h>
         <p class="about">Game Developer Student from Sheffield <br><br> 
 		<a href="https://twitter.com/MarcHansen2002"> TWITTER </a>
 		<a href="https://github.com/MarcHansen2002"> GITHUB </a>
@@ -42,8 +58,15 @@ With a drive for continuous learning and improvement, I am committed to staying 
 		<p>PROJECTS</p>
 	</div>
 	<div class = "column">
-		<p><a class="project" href="https://github.com/MarcHansen2002/sfml-minesweeper">SFML Minesweeper</a>
-		<br>A remake of the well known game "Minesweeper" using C++ & SFML </p>
+		<p>
+		
+		<a class="project" href="https://github.com/MarcHansen2002/sfml-minesweeper">SFML Minesweeper</a>
+		<br>A remake of the well known game "Minesweeper" using C++ & SFML
+		<br><br>
+		<a class="project" href="https://marchansen2002.github.io">HTML Portfolio Site</a>
+		<br>A site to show off my projects using HTML, CSS, and a bit of JavaScript
+		
+		</p>
 	</div>
 </div>
 
@@ -54,13 +77,20 @@ With a drive for continuous learning and improvement, I am committed to staying 
 	</div>
 	<div class = "column">
 		<h2>Languages</h2>
-		<p>C++, C#, HTML, CSS</p>
+		<p class="skills">C++, C#, HTML, CSS</p>
 		<h2>Databases</h2>
-		<p>MySQL</p>
+		<p class="skills">MySQL</p>
+		<h2>Tools</h2>
+		<p class="skills">Unity, Unreal Engine 5, Visual Studio, GitHub</p>
 	</div>
 </div>
 
 <div class = "columnRight">
+
+	<p><img src="images/BinaryBanner_Dark.png" class="img_dark"></p>
+	
+	<p><img src="images/BinaryBanner.png" class="img_light"></p>
+
 </div>
 </body>
 </html>

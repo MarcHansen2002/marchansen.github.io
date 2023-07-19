@@ -1,24 +1,26 @@
 body {
-  background-color: white;
+  background-color: black;
 }
 
 /* HEADER STYLING */
 h {
-	color: black;
+	color: white;
 	font-size: 50px;
 	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
 	font-weight: bold;
 	margin: 0;
+	
 }
 h1 {
-  color: black;
+  color: white;
   font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
 }
 h2 {
-  color: black;
+  color: white;
   font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
   margin: 0;
 }
+
 /* TEXT CONTENT STYLING */
 p {
   color: gray;
@@ -28,7 +30,7 @@ p {
 p.about {
 	margin: 0;
 }
-p.skills {
+p.skills{
 	margin: 0;
 }
 
@@ -39,10 +41,10 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: black;
+	color: white;
 }
 a.project {
-	color: black;
+	color: white;
 	font-weight: bold;
 }
 a.project:hover {
@@ -83,16 +85,17 @@ a.project:hover {
 	height: 100%;
 	right: 0;
 	top: 0;
+	/*background-color: black;*/
 	position: absolute;
 }
 
 img.img_light {
-	opacity: 1;
+	opacity: 0;
 	position: absolute;
 	top: 0;
 }
 img.img_dark {
-	opacity: 0;
+	opacity: 1;
 	position: absolute;
 	top: 0
 }
