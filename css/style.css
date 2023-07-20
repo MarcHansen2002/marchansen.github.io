@@ -3,18 +3,14 @@ body {
 }
 
 /* HEADER STYLING */
-h {
+h.nameTitle {
 	color: black;
 	font-size: 50px;
 	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
 	font-weight: bold;
 	margin: 0;
 }
-h1 {
-  color: black;
-  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
-}
-h2 {
+h.subtitle {
   color: black;
   font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
   margin: 0;
