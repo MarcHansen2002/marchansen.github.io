@@ -7,98 +7,100 @@
 </head>
 
 <body>
-<!-- PROFILE ROW -->
-<div class = "row1">
-	<div class="column1">
-	<!-- DARK MODE TOGGLE -->
-		<button onclick="toggleTheme()"><img src="images/LightModeButton.png" class="img_light" style="width:100px;left:0;"><img src="images/DarkModeButton.png" class="img_dark" style="width:100px;left:0;"></button>
-		<script>
-			function toggleTheme()
-			{
-				var theme = document.getElementsByTagName('link')[0];
-				
-				if (theme.getAttribute('href') == 'css/style.css')
-				{
-					theme.setAttribute('href', 'css/darkStyle.css');
-				}
-				else
-				{
-					theme.setAttribute('href', 'css/style.css');
-				}
-			}
-		</script>
-		<p><img src="images/icon.png" style="width:200px;height:200px"></p>
-	</div>
-	<!-- PROFILE INFO -->
-	<div class="column">
-        <h class="nameTitle"><br>Marc Hansen</h>
-        <p class="about">Computer Science for Games Student from Sheffield <br><br> 
-		<a href="https://twitter.com/MarcHansen2002"> TWITTER </a>
-		<a href="https://github.com/MarcHansen2002"> GITHUB </a>
-		<a href="https://www.linkedin.com/in/marc-hansen-7549a5206/"> LINKEDIN</a>
-		
-		<br><br><br>
-		</p>
-    </div>
-</div>
-<!-- ABOUT ME ROW -->
-<div class = "row">
-	<div class = "column1">
-		<p>ABOUT ME</p>
-	</div>
-	<div class = "column">
-		
-		<p>An aspiring game developer with a strong passion for programming and creating immersive gaming experiences. As a dedicated student in the field, I have been actively developing my skills in C++ and game engine architecture.
-Throughout my studies, I have eagerly explored the process of game development, focusing on creating engaging gameplay mechanics and optimizing performance. I have gained valuable hands-on experience through personal projects and Uni / College projects in groups and alone.
-With a drive for continuous learning and improvement, I am committed to staying on top of the latest industry trends and new technologies. I am excited to contribute my programming expertise to collaborative projects, where I can deliver polished and innovative products.</p>
-	</div>
+<!--      NAME, ABOUT ME, LINKS -->
+<div class = "boxA">
+</br>
+<h>Marc Hansen - Programmer</h>
+
+<p>
+</p>
+	<a class = "main" href="https://twitter.com/MarcHansen2002"> TWITTER </a> &nbsp; &nbsp; &nbsp;
+	<a class = "main" href="https://github.com/MarcHansen2002"> GITHUB </a> &nbsp; &nbsp; &nbsp;
+	<a class = "main " href="https://www.linkedin.com/in/marc-hansen-7549a5206/"> LINKEDIN</a>
+<p style="width:500px;margin: 0 auto;">
+</br>
+Short about me paragraph will be placed here eventually once I get the time to write something
+then it will be placed in this box below the name text and above the scroll box list of projects
+below.
+</br></br></br>
+</p>
+
 </div>
 
-<!-- PROJECTS ROW -->
-<div class = "row">
-	<div class = "column1">
-		<p>PROJECTS</p>
-	</div>
-	<div class = "column">
-		<p>
-		
-		<a class="project" href="https://github.com/MarcHansen2002/sfml-minesweeper">SFML Minesweeper</a>
-		<br>A remake of the well known game "Minesweeper" using C++ & SFML
-		<br><br>
-		<a class="project" href="https://marchansen.itch.io/combat-colosseum">Unity C# Group Project</a>
-		<br>A top down combat game made in Unity using C# in a group project with designers and artists for a university project
-		<br><br>
-		<a class="project" href="https://marchansen2002.github.io">HTML Portfolio Site</a>
-		<br>A site to show off my projects using HTML, CSS, and a bit of JavaScript
-		
-		</p>
-	</div>
-</div>
+<!--      PROJECTS             -->
 
-<!-- SKILLS ROW -->
-<div class = "row">
-	<div class = "column1">
-		<p>SKILLS</p>
-	</div>
-	<div class = "column">
+<div class = "boxB">
+</br>
+<h>PROJECTS</h>
+<p></p>
+	<div class = "scrollBox">
 	
-		<h class="subtitle">Languages</h2>
-		<p class="skills">C++, C#, HTML, CSS</p>
+		<div class = "projectIcon">
+		<p><img src="images/EmptyIcon.png" style="width:200px;height:200px"></p>
+		<a class = "project" >SFML Minesweeper</a>
+		<p class = "project">A remake of the classic minesweeper made in C++ using SFML</p>
+		</div>
 		
-		<h class="subtitle">Databases</h2>
-		<p class="skills">MySQL</p>
+		<div class = "projectIcon">
+		<p><img src="images/EmptyIcon.png" style="width:200px;height:200px"></p>
+		<a class = "project">Unity C# Group Project</a>
+		<p class = "project">A game created in a group of 7 for university using Unity</p>
+		</div>
 		
-		<h class="subtitle">Tools</h2>
-		<p class="skills">Unity, Unreal Engine 5, Visual Studio, GitHub</p>
-		
+		<div class = "projectIcon">
+		<p><img src="images/EmptyIcon.png" style="width:200px;height:200px"></p>
+		<a class = "project">HTML Portfolio Site</a>
+		<p class = "project">Creation and evolution of this site using HTML & CSS</p>
+		</div>
+	
 	</div>
-</div>
 
-<div class = "columnRight">
-
-	<p><img src="images/BinaryBanner_Dark.png" class="img_dark"></p>
-	<p><img src="images/BinaryBanner.png" class="img_light"></p>
+</br></br>
 
 </div>
+
+<!--      TECHNICAL SKILLS     -->
+
+<div class = "boxC">
+</br>
+<h>SKILLS</h>
+
+<h2>Languages</h2>
+<p>
+C++, C#, HTML, CSS
+</p>
+
+<h2>Databases & Libraries</h2>
+<p>
+SMFL, MySQL
+</p>
+
+<h2>Tools</h2>
+<p>
+Unity, Unreal Engine 4/5, Visual Studio, Github
+</p>
+</br>
+
+
+</div>
+
+<!--      EDUCATION            -->
+
+<div class = "boxA">
+</br>
+<h>EDUCATION</h>
+
+<p>
+Chesterfield College - Games design and development</br>
+September 2019 - July 2021 </br></br>
+
+Sheffield Hallam University - Computer Science for Games</br>
+September 2022 - May 2026
+</p>
+
+</div>
+
+
 </body>
+
 </html>

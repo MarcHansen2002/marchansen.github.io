@@ -1,103 +1,100 @@
-body {
-  background-color: white;
+@font-face
+{
+	font-family: 'playfair';
+	src: url(fonts/Playfair.ttf);
 }
 
-/* HEADER STYLING */
-h.nameTitle {
-	color: black;
-	font-size: 50px;
-	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+body
+{
+	background-color: #2E3047;
+	margin: 0px;
+	margin-top: 10px;
+}
+.boxA
+{
+	background-color: #2E3047;
+	margin: auto;
+}
+.boxB
+{
+	background-color: #43455C;
+}
+.boxC
+{
+	background-color: #3C3F58;
+}
+.scrollBox
+{
+	background-color: #707793;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+.projectIcon
+{
+	background-color: #707793;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div
+{
+	background-color: #a83293;
+	text-align: center;
+}
+
+/* Styling for text */
+h
+{
+	font-family: 'playfair';
+	font-size: 24px;
 	font-weight: bold;
-	margin: 0;
+	color: white;
 }
-h.subtitle {
-  color: black;
-  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
-  margin: 0;
+h2
+{
+	font-family: 'playfair';
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	margin-bottom: -10px;
 }
-/* TEXT CONTENT STYLING */
-p {
-  color: gray;
-  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
-  font-size: 36;
+p
+{
+	font-family: 'playfair';
+	font-size: 20;
+	color: white;
 }
-p.about {
-	margin: 0;
-}
-p.skills {
-	margin: 0;
+p.project
+{
+	word-wrap: normal;
 }
 
-/* LINK STYLING */
+/* Styling for links */
 a {
 	color: #727272;
-	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
 	text-decoration: none;
 }
 a:hover {
-	color: black;
+	color: white;
 }
-a.project {
-	color: black;
-	font-weight: bold;
+a.main {
+	font-size: 24px;
+	color: #727272;
+	text-decoration: none;
 }
-a.project:hover {
-	text-decoration: underline;
+a.main:hover
+{
+	color: white;
 }
-
-/* PAGE COLUMN / ROW STYLING */
-.column1 {
-	float: left;
-	width: 15%;
-	
-	padding-left: 100px;
+a.project
+{
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
 }
-.row1 {
-	padding-top: 100px;
-}
-.column {
-	float: left;
-	
-	width: 900px;
-	white-space: normal;
-}
-.row {
-	padding-top: 30px;
-}
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-.row1:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-.columnRight {
-	width: 20%;
-	height: 100%;
-	right: 0;
-	top: 0;
-	position: absolute;
-}
-
-img.img_light {
-	opacity: 1;
-	position: absolute;
-	top: 0;
-}
-img.img_dark {
-	opacity: 0;
-	position: absolute;
-	top: 0
-}
-
-button {
-	opacity: 1;
-	background-color: transparent;
-	border: none;
-}
-button:hover {
-	opacity: 0.5;
+a.project:hover
+{
+	color: #b8b8b8;
 }
