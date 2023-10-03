@@ -1,0 +1,17 @@
+@font-face
+{
+	font-family: 'playfair';
+	src: url(fonts/Playfair.ttf);
+}
+
+body
+{
+	background-color: #2E3047;
+	margin: 0px;
+	margin-top: 10px;
+}
+div.navBar
+{
+	background-color: #43455C;
+	margin: 0px;
+}
