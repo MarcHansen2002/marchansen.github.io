@@ -36,7 +36,13 @@ body
 	padding-left: 10px;
 	padding-right: 10px;
 }
+.scrollBox
+{
 
+	overflow-y: hidden;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
 /* LINK FORMATTING */
 a:hover
 {
