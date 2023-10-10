@@ -26,6 +26,7 @@ body
 }
 .scrollBox
 {
+
 	background-color: #707793;
 	overflow-y: hidden;
 	overflow-x: scroll;
