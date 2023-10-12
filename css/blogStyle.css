@@ -13,12 +13,15 @@ h
 	font-size: 24px;
 	color: white;
 	font-weight: bold;
+	
 }
 p
 {
 	color: white;
 	width: 500px;
 	margin: auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
 	
 }
 body
@@ -29,6 +32,8 @@ body
 .navBar
 {
 	background-color: #43455C;
+	
+	
 }
 .screenshot
 {
@@ -38,7 +43,8 @@ body
 }
 .scrollBox
 {
-
+	margin-bottom: 2%;
+	margin-top: 2%;
 	overflow-y: hidden;
 	overflow-x: scroll;
 	white-space: nowrap;
@@ -53,4 +59,5 @@ a
 	font-size: 20px;
 	color: #727272;
 	text-decoration: none;
+	
 }
