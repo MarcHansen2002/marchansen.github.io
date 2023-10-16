@@ -49,6 +49,14 @@ body
 	overflow-x: scroll;
 	white-space: nowrap;
 }
+ul
+{
+	color: white;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	display: inline-block;
+	text-align: left;
+}
 /* LINK FORMATTING */
 a:hover
 {
